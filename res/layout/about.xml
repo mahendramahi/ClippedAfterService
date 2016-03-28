@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenish"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        layout="@layout/actionbar" />
+
+     <WebView
+        android:id="@+id/webview_about"
+        android:background="@color/greenish"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/actionBar"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

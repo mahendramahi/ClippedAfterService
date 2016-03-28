@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenish"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        layout="@layout/actionbar" />
+
+    <TextView
+        android:id="@+id/noHistoryTV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/lv_history"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="No History"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:divider="@null" >
+    </ListView>
+
+</RelativeLayout>

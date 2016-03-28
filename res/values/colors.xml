@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+    <color name="greenish">#83d160</color>
+    <color name="darkgreenish">#94e171</color>
+    <color name="text_green">#134D00</color>
+    <color name="gray">#f1f1f1</color>
+    <color name="gray_text">#545454</color>
+    <color name="action_bar_color">#353535</color>
+    <color name="divide_line_color">#151515</color>
+
+</resources>
